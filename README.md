@@ -10,7 +10,7 @@ Steps to Contribute:
 1. Find an issue
 2. Fork repo
 3. Solve problem
-4. Submit pr to master
+4. Submit pr to dev
 6. If CI fails please fix the issue
 
 If you would like this customized and published for you please send an email to keheira@bpack.media
