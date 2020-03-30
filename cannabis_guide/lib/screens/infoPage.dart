@@ -30,7 +30,9 @@ class InfoPage extends StatelessWidget {
                   image: 'images/indica.png',
                   color: Color(0xFFFFA500),
                   onPress: () {
-                    Navigator.pushNamed(context, 'details');
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) =>
+                            DetailsPage(num: 1, color: Color(0xFFFFA500))));
                   },
                 ),
               ],
@@ -44,7 +46,9 @@ class InfoPage extends StatelessWidget {
                   image: 'images/indica.png',
                   color: Color(0xFF4B0082),
                   onPress: () {
-                    Navigator.pushNamed(context, 'details');
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) =>
+                            DetailsPage(num: 2, color: Color(0xFF4B0082))));
                   },
                 ),
                 InfoTile(
@@ -52,7 +56,9 @@ class InfoPage extends StatelessWidget {
                   image: 'images/indica.png',
                   color: Color(0xFF000000),
                   onPress: () {
-                    Navigator.pushNamed(context, 'details');
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) =>
+                            DetailsPage(num: 3, color: Color(0xFF000000))));
                   },
                 ),
               ],

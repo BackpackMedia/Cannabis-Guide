@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:cannabisguide/screens/infoPage.dart';
 import 'package:cannabisguide/screens/quizPage.dart';
-import 'package:cannabisguide/screens/detailsPage.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(initialRoute: 'home', routes: {
-      'home': (context) => HomePage(),
-      'details': (context) => DetailsPage(),
-    });
+    return MaterialApp(home: HomePage());
   }
 }
 

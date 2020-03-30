@@ -7,6 +7,7 @@ const kInfoStyle = TextStyle(
 
 const kDetailsStyle = TextStyle(
   fontSize: 20.0,
+  color: Colors.white,
 );
 
 const kQuestionStyle = TextStyle(
