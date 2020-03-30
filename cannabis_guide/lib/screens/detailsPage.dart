@@ -1,30 +1,47 @@
 import 'package:flutter/material.dart';
+import 'package:cannabisguide/typeDetails.dart';
+import 'package:cannabisguide/constants.dart';
 
-class DetailsPage extends StatefulWidget {
-  @override
-  _DetailsPageState createState() => _DetailsPageState();
-}
-//TODO: pull details from external page & add navigation
-class _DetailsPageState extends State<DetailsPage> {
+class DetailsPage extends StatelessWidget {
+  final Color color;
+  final int num;
+
+  DetailsPage({
+    this.color,
+    this.num,
+  });
+  TypeDetails details = TypeDetails();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
+      backgroundColor: color,
+      body: SafeArea(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-        Text(
-          'deats 1',
-          style: TextStyle(color: Colors.white),
+              Text(
+                details.getEffects(num),
+                style: kDetailsStyle,
+                textAlign: TextAlign.center,
+              ),
+              SizedBox(height: 20),
+              Text(
+                details.getSymptoms(num),
+                style: kDetailsStyle,
+                textAlign: TextAlign.center,
+              ),
+              SizedBox(height: 20),
+              Text(
+                details.getTOD(num),
+                style: kDetailsStyle,
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
         ),
-        Text(
-        'deats 2',
-          style: TextStyle(color: Colors.white),
-        ),
-        Text(
-          'deats 3',
-          style: TextStyle(color: Colors.white),
-        ),
-      ],
       ),
     );
   }

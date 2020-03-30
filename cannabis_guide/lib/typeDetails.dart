@@ -1,8 +1,7 @@
 import 'strainType.dart';
+import 'package:flutter/material.dart';
 
 class TypeDetails {
-  int _item = 0;
-
   List<StrainType> _details = [
     StrainType(
         'Effects: physical sedation/sluggishness, "couch lock"',
@@ -22,19 +21,15 @@ class TypeDetails {
         'Best Time of Day: early morning'),
   ];
 
-  void setItem(int num) {
-    _item = num;
+  String getEffects(int num) {
+    return _details[num].effects;
   }
 
-  String getEffects() {
-    _details[_item].effects;
+  String getSymptoms(int num) {
+    return _details[num].symptoms;
   }
 
-  String getSymptoms() {
-    _details[_item].symptoms;
-  }
-
-  String getTOD() {
-    _details[_item].timeOfDay;
+  String getTOD(int num) {
+    return _details[num].timeOfDay;
   }
 }
