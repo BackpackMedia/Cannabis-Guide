@@ -208,7 +208,6 @@ class _QuizPageState extends State<QuizPage> {
                       _control = theControl.yes;
                       _history = theHistory.no;
                       _location = theLocation.no;
-                      print("I'm hit");
                     },
                     child: Text(
                       "CLEAR",
@@ -226,21 +225,129 @@ class _QuizPageState extends State<QuizPage> {
                     textColor: Colors.white,
                     padding: EdgeInsets.all(8.0),
                     onPressed: () {
-                      showDialog(
-                        context: context,
-                        child: AlertDialog(
-                          title: Text("Results are here!"),
-                          content: Text("It\'s recommended that you try "),
-                          actions: <Widget>[
-                            FlatButton(
-                              child: Text("OK"),
-                              onPressed: () {
-                                Navigator.of(context).pop();
-                              },
-                            ),
-                          ],
-                        ),
-                      );
+                      if (_location == theLocation.no) {
+                        showDialog(
+                          context: context,
+                          child: AlertDialog(
+                            title: Text("Results are here!"),
+                            content: Text("It\'s recommended that you try CBD"),
+                            actions: <Widget>[
+                              FlatButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                            ],
+                          ),
+                        );
+                      } else if (_history == theHistory.no) {
+                        showDialog(
+                          context: context,
+                          child: AlertDialog(
+                            title: Text("Results are here!"),
+                            content: Text(
+                                "It\'s recommended that you try a sativa strain because you are new to this."),
+                            actions: <Widget>[
+                              FlatButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                            ],
+                          ),
+                        );
+                      } else if (_control == theControl.yes &&
+                          _why == theWhy.sativa) {
+                        showDialog(
+                          context: context,
+                          child: AlertDialog(
+                            title: Text("Results are here!"),
+                            content: Text(
+                                "It\'s recommended that you try a hybrid strain that is higher in sativa."),
+                            actions: <Widget>[
+                              FlatButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                            ],
+                          ),
+                        );
+                      } else if (_control == theControl.no &&
+                          _why == theWhy.indica) {
+                        showDialog(
+                          context: context,
+                          child: AlertDialog(
+                            title: Text("Results are here!"),
+                            content: Text(
+                                "It\'s recommended that you try a hybrid strain that is higher in indica."),
+                            actions: <Widget>[
+                              FlatButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                            ],
+                          ),
+                        );
+                      } else if (_why == theWhy.cbd) {
+                        showDialog(
+                          context: context,
+                          child: AlertDialog(
+                            title: Text("Results are here!"),
+                            content: Text(
+                                "It\'s recommended that you try a CBD strain"),
+                            actions: <Widget>[
+                              FlatButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                            ],
+                          ),
+                        );
+                      } else if (_why == theWhy.sativa ||
+                          _when == theWhen.night ||
+                          _when == theWhen.whenever) {
+                        showDialog(
+                          context: context,
+                          child: AlertDialog(
+                            title: Text("Results are here!"),
+                            content: Text(
+                                "It\'s recommended that you try a sativa strain"),
+                            actions: <Widget>[
+                              FlatButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                            ],
+                          ),
+                        );
+                      } else {
+                        showDialog(
+                          context: context,
+                          child: AlertDialog(
+                            title: Text("Results are here!"),
+                            content: Text(
+                                "It\'s recommended that you try a indica strain"),
+                            actions: <Widget>[
+                              FlatButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                            ],
+                          ),
+                        );
+                      }
                     },
                     child: Text(
                       "SUBMIT",
