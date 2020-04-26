@@ -24,9 +24,6 @@ jobs:
       with:
         channel: 'stable'
       
-    - name: Run flutter doctor
-      run: flutter doctor
-      
     - name: Install dependencies
       run: flutter pub get
       
