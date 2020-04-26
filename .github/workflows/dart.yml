@@ -7,14 +7,17 @@ on:
 
 jobs:
   build:
-    name: Basicv flutter test
+    name: Basic flutter test
     runs-on: ubuntu-latest
 
     container:
       image:  google/dart:latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
+      
+    - name: Run flutter doctor
+      run: flutter doctor
       
     - name: Install dependencies
       run: flutter pub get
