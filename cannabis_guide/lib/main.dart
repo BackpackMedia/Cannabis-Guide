@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Cannabis Guide'),
-        backgroundColor: Colors.amber[800],
+        backgroundColor: Color(0xFF195501),
       ),
       body: Container(
         child: _pageOptions.elementAt(_selectedIndex),
@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(icon: Icon(Icons.help), title: Text('Quiz')),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: Color(0xFF195501),
         onTap: _onItemTapped,
       ),
     );
