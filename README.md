@@ -1,7 +1,8 @@
 # Cannabis-Guide
 Mobile application to help you learn about cannabis
 
-*Android beta coming soon. Sign up [here](https://t.co/5DejHxPAND?amp=1)*
+*Android beta coming soon. Sign up [here](https://forms.gle/Teg2UF9ADhiSegWN8)*
+
 *iOS beta coming soon. Sign up [here](https://forms.gle/mLXsH2o9V2a47T6c7)*
 
 Ways to Contribute:
