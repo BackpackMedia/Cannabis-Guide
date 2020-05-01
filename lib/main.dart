@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cannabisguide/screens/infoPage.dart';
-import 'package:cannabisguide/screens/quizPage.dart';
+import 'package:weednoob/screens/infoPage.dart';
+import 'package:weednoob/screens/quizPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.info), title: Text('Info')),
-          BottomNavigationBarItem(icon: Icon(Icons.help), title: Text('Quiz')),
+          BottomNavigationBarItem(icon: Icon(Icons.toc), title: Text('Quiz')),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Color(0xFF195501),

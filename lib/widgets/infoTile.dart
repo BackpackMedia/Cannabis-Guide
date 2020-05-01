@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cannabisguide/constants.dart';
+import 'package:weednoob/constants.dart';
 
 class InfoTile extends StatelessWidget {
   final String title;

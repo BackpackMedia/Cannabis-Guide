@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:cannabisguide/constants.dart';
-import 'package:cannabisguide/widgets/infoTile.dart';
-import 'package:cannabisguide/typeDetails.dart';
-import 'package:cannabisguide/screens/detailsPage.dart';
+import 'package:weednoob/constants.dart';
+import 'package:weednoob/widgets/infoTile.dart';
+import 'package:weednoob/typeDetails.dart';
+import 'package:weednoob/screens/detailsPage.dart';
 
 class InfoPage extends StatelessWidget {
   TypeDetails details = TypeDetails();

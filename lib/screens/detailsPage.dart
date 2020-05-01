@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cannabisguide/typeDetails.dart';
-import 'package:cannabisguide/constants.dart';
+import 'package:weednoob/typeDetails.dart';
+import 'package:weednoob/constants.dart';
 
 class DetailsPage extends StatelessWidget {
   final Color color;

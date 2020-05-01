@@ -170,13 +170,13 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "cannabisguide",
+      "name": "weednoob",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-03-31T02:11:30.251571Z",
+  "generated": "2020-05-01T22:09:07.650592Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

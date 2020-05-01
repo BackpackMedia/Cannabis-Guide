@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cannabisguide/constants.dart';
+import 'package:weednoob/constants.dart';
 
 enum theWhy { indica, sativa, cbd }
 enum theWhen { morning, night, whenever }
@@ -38,7 +38,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('To get high'),
                 value: theWhy.indica,
                 groupValue: _why,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theWhy value) {
                   setState(() {
                     _why = value;
@@ -49,7 +49,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('Avoid meds'),
                 value: theWhy.sativa,
                 groupValue: _why,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theWhy value) {
                   setState(() {
                     _why = value;
@@ -60,7 +60,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('Medical relief'),
                 value: theWhy.cbd,
                 groupValue: _why,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theWhy value) {
                   setState(() {
                     _why = value;
@@ -77,7 +77,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('Morning'),
                 value: theWhen.morning,
                 groupValue: _when,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theWhen value) {
                   setState(() {
                     _when = value;
@@ -88,7 +88,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('Evening/Bedtime'),
                 value: theWhen.night,
                 groupValue: _when,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theWhen value) {
                   setState(() {
                     _when = value;
@@ -99,7 +99,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('Whenever'),
                 value: theWhen.whenever,
                 groupValue: _when,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theWhen value) {
                   setState(() {
                     _when = value;
@@ -116,7 +116,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('Yes'),
                 value: theControl.yes,
                 groupValue: _control,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theControl value) {
                   setState(() {
                     _control = value;
@@ -127,7 +127,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('No'),
                 value: theControl.no,
                 groupValue: _control,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theControl value) {
                   setState(() {
                     _control = value;
@@ -144,7 +144,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('Yes'),
                 value: theHistory.yes,
                 groupValue: _history,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theHistory value) {
                   setState(() {
                     _history = value;
@@ -155,7 +155,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('No'),
                 value: theHistory.no,
                 groupValue: _history,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theHistory value) {
                   setState(() {
                     _history = value;
@@ -172,7 +172,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('Yes'),
                 value: theLocation.yes,
                 groupValue: _location,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theLocation value) {
                   setState(() {
                     _location = value;
@@ -183,7 +183,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: const Text('No'),
                 value: theLocation.no,
                 groupValue: _location,
-                activeColor: Colors.amber[800],
+                activeColor: Color(0xFF195501),
                 onChanged: (theLocation value) {
                   setState(() {
                     _location = value;
@@ -197,9 +197,9 @@ class _QuizPageState extends State<QuizPage> {
                   FlatButton(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(18.0),
-                      side: BorderSide(color: Colors.amber[800]),
+                      side: BorderSide(color: Color(0xFF195501)),
                     ),
-                    color: Colors.amber[800],
+                    color: Color(0xFF195501),
                     textColor: Colors.white,
                     padding: EdgeInsets.all(8.0),
                     onPressed: () {
@@ -220,8 +220,8 @@ class _QuizPageState extends State<QuizPage> {
                   FlatButton(
                     shape: new RoundedRectangleBorder(
                         borderRadius: new BorderRadius.circular(18.0),
-                        side: BorderSide(color: Colors.amber[800])),
-                    color: Colors.amber[800],
+                        side: BorderSide(color: Color(0xFF195501))),
+                    color: Color(0xFF195501),
                     textColor: Colors.white,
                     padding: EdgeInsets.all(8.0),
                     onPressed: () {

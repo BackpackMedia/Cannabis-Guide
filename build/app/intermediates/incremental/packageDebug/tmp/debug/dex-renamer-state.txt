@@ -1,4 +1,4 @@
-#Tue Apr 21 21:53:19 EDT 2020
+#Fri May 01 18:10:08 EDT 2020
 base.0=/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

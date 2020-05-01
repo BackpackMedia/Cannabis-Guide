@@ -31,21 +31,6 @@
             ]
         },
         {
-            "outputFile": "/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/build/app/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/backpackmedia/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/res/values-en-rIN/values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/build/app/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat",
             "map": [
                 {
@@ -61,10 +46,10 @@
             ]
         },
         {
-            "outputFile": "/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/build/app/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "outputFile": "/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/build/app/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/backpackmedia/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "/Users/backpackmedia/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/res/values-en-rIN/values-en-rIN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -80,6 +65,21 @@
             "map": [
                 {
                     "source": "/Users/backpackmedia/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/res/values-ro/values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/build/app/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/backpackmedia/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

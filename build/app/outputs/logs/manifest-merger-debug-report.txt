@@ -54,7 +54,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/back
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] /Users/backpackmedia/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/android/app/src/main/AndroidManifest.xml:10:9-38
+		ADDED from /Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/android/app/src/main/AndroidManifest.xml:10:9-34
 	android:icon
 		ADDED from /Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/android/app/src/main/AndroidManifest.xml:11:9-43
 	android:name

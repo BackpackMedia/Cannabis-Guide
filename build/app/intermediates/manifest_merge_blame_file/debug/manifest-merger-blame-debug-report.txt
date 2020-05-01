@@ -30,8 +30,8 @@
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
 26-->/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/android/app/src/main/AndroidManifest.xml:11:9-43
-27        android:label="cannabisguide" >
-27-->/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/android/app/src/main/AndroidManifest.xml:10:9-38
+27        android:label="Weed Noob" >
+27-->/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/android/app/src/main/AndroidManifest.xml:10:9-34
 28        <activity
 28-->/Users/backpackmedia/Desktop/Cannabis-Guide/cannabis_guide/android/app/src/main/AndroidManifest.xml:12:9-23:20
 29            android:name="media.backpack.cannabisguide.MainActivity"
